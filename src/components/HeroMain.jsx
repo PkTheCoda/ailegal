@@ -19,7 +19,7 @@ const HeroMain = () => {
             <div className='h-max py-5 w-[60%] text-white flex flex-col gap-y-4 z-10'>
                 <div className='text-7xl font-semibold flex flex-col'>
                         <div className='font-medium text-3xl text-blue-400'>
-                            Strategy. Experience. Results.
+                            Experience. Results. Communication.
                         </div>
                         <div>
                             Birmingham Criminal
@@ -27,8 +27,8 @@ const HeroMain = () => {
                         </div>
                     </div>
                     <div className="text-xl w-2/3">
-                        Sharing resources, experience, and ideas
-                        from across England to serve you better
+                        Pooling Expertise, Ideas, and Insights
+                        Across England for Your Benefit
                     </div>
                     <div className='w-10/12 font-semibold h-max flex flex-col lg:flex-row gap-4'>
                         <button className='w-5/12 px-5 py-2 text-center border-2 border-white transitionform duration-700 hover:border-transparent hover:bg-blue-500'>
