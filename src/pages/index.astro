@@ -4,13 +4,16 @@ import Card from '../components/Card.astro';
 import HeroMain from '../components/HeroMain'
 import AreasServed from '../components/AreasServed'
 import SuccessfulCases from '../components/SuccessfulCases'
+import Aboutus from '../components/Aboutus';
+import Navbar from '../components/Navbar'
 import '../styles.css'
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
+		<Navbar />
 		<HeroMain />
-		<AreasServed />
+		<Aboutus />
 		<SuccessfulCases />
 	</main>
 </Layout>
