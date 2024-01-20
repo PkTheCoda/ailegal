@@ -11,7 +11,7 @@ const Areas = () => {
       ];
 
   return (
-    <div className='flex flex-col gap-y-6 my-20 items-center justify-center'>
+    <div className='flex flex-col gap-y-6 my-20 bg-stone-50 py-16 items-center justify-center'>
         <div className='w-10/12 flex flex-col gap-y-4'>
             <div className='flex flex-col gap-y-2 w-full'>
                 <div className='text-6xl font-medium '>What we do</div>

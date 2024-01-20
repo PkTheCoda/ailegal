@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav class="bg-stone-100 border-gray-200 py-2.5 dark:bg-gray-900">
+    <nav class="bg-blue-50 border-gray-200 py-2.5 dark:bg-gray-900">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 py-2 mx-auto">
             <a href="#" class="flex items-center">
                 <img src="https://ailegal.uk/wp-content/uploads/2022/10/Logo.png" class="h-6 mr-3 sm:h-12" alt="Landwind Logo" />
