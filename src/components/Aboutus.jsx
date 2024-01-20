@@ -7,11 +7,11 @@ const Aboutus = () => {
             <div className='w-5/6  flex flex-col gap-y-4'>
                     <div className='flex flex-col gap-y-1'>
                         <h3 className='text-base text-slate-700'>Making Change, one case at a time.</h3>
-                        <h1 className='text-5xl font-medium text-slate-700'>
+                        <h1 className='text-6xl font-medium text-slate-700'>
                             About Our Firm
                         </h1>
                     </div>
-                    <div className='pl-4 text-base border-l-2 border-black-500/40 text-slate-500 leading-relaxed tracking-wide'>
+                    <div className='my-2 pl-4 text-base border-l-2 border-black-500/40 text-slate-500 leading-relaxed tracking-wide'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt quasi perspiciatis odit perferendis deleniti vel 
                         laborum voluptatem illum, numquam nam totam, inventore maxime, rerum quas ut fugit cumque exercitationem.
                         <br />
