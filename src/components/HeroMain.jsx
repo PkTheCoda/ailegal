@@ -60,8 +60,8 @@ const HeroMain = () => {
                 <span className="block pt-2">without the Legalese</span>
                 </h1>
                 <h2 class="mt-6 text-lg font-light text-black leading-loose tracking-wide">
-                    Banyan is a global immigration law firm providing world-class, modern immigration guidance with a human touch.
-                     We value things like employee experience, transparency, and teamwork
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odit consequatur magnam consequuntur totam obcaecati 
+                    neque? Eos nulla, magni quia tempora perferendis ratione ullam 
                 </h2>
                 <div class="mt-10 flex items-center justify-start">
                   <a
