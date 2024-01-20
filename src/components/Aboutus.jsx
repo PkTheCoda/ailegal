@@ -2,9 +2,9 @@ import React from 'react'
 
 const Aboutus = () => {
   return (
-    <div className='flex gap-10 py-16'>
-        <div className='w-1/2 py-10 flex flex-col items-end gap-y-5'>
-            <div className='w-5/6  flex flex-col gap-y-4'>
+    <div className='flex gap-10 py-16 lg:flex-row flex-col'>
+        <div className='w-full order-last lg:order-1 lg:w-1/2 py-10 flex flex-col items-center lg:items-end gap-y-5'>
+            <div className='w-5/6 flex flex-col gap-y-4'>
                     <div className='flex flex-col gap-y-1'>
                         <h3 className='text-base text-slate-700'>Making Change, one case at a time.</h3>
                         <h1 className='text-6xl font-medium text-slate-700'>
@@ -31,7 +31,7 @@ const Aboutus = () => {
             </a>
             </div>
         </div>
-            <div className="relative w-1/2 flex justify-center items-center">
+            <div className="relative w-full order-2 lg:w-1/2 flex justify-center items-center">
                 {/* Image */}
                 <img
                     src="https://static.vecteezy.com/system/resources/thumbnails/017/034/338/original/business-and-lawyers-discussing-contract-papers-with-brass-scale-on-desk-in-office-law-legal-services-advice-justice-and-law-concept-picture-with-film-grain-effect-free-video.jpg"

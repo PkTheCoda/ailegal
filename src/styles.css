@@ -6,7 +6,11 @@
 
 @layer components {
     .transitionform {
-        @apply transition transform duration-300
+        @apply transition transform duration-300;
+    }
+
+    .four-text {
+        @apply text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl;
     }
 }
 

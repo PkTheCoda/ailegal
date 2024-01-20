@@ -49,9 +49,9 @@ const HeroMain = () => {
           </div>
         </div>
 
-        <div class="relative flex gap-x-10 items-center justify-center z-20 mx-auto w-full ">
-          <div class="mx-auto w-1/2 flex justify-end ">
-            <div className="w-5/6 ">
+        <div class="relative flex lg:flex-row flex-col gap-x-10 items-center justify-center z-20 mx-auto w-full ">
+          <div class="mx-auto order-last lg:order-1 w-full lg:w-1/2 flex justify-center lg:justify-end ">
+            <div className="w-full lg:w-5/6 px-10 lg:px-0">
                 <h1 class="text-xl font-semibold leading-loose tracking-tight  text-blue-600">
                     Defending for your tommorrow, today.
                 </h1>
@@ -85,9 +85,9 @@ const HeroMain = () => {
                 </div>
             </div>
           </div>
-          <div class="relative mx-auto mt-10 w-1/3">
+          <div class="order-2 relative mx-auto mt-10 w-full lg:w-1/3">
             <img
-              class="w-2/3"
+              class="w-1/2 xl:w-2/3"
               src="https://www.freeiconspng.com/thumbs/legal-icon/legal-icon-16.png"
               alt=""
             />
