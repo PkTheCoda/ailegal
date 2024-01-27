@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <div className="w-full flex flex-col gap-6 items-center justify-center py-[8rem] bg-stone-50">
-        <h1 className="w-5/6 text-6xl font-medium tracking-tight">What our <span className="text-blue-600">Users say:</span></h1>
+        <h1 className="w-5/6 text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight">What our <span className="text-blue-600">Users say:</span></h1>
         <div className="w-5/6 flex flex-wrap justify-between gap-5">
             <figure class="w-full sm:w-[45%] lg:w-[30%] relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10 mb-8">
                 <svg aria-hidden="true" width="105" height="78" class="absolute top-6 left-6 fill-slate-200">
@@ -42,7 +42,7 @@ const Testimonials = () => {
                 </blockquote>
                 <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                     <div>
-                        <div class="font-display text-base text-slate-700">Anita Partridge</div>
+                        <div class="font-display text-base text-slate-700">AP</div>
                         <div class="mt-1 text-sm text-slate-500">Client</div>
                     </div>
                     <div class="overflow-hidden rounded-full bg-slate-50">

@@ -3,10 +3,10 @@ import { ArrowLongRightIcon } from '@heroicons/react/24/outline'
 
 export const SuccessfulCases = () => {
   return (
-    <div className="py-20 px-10">
+    <div className="py-20 px-2 lg:px-10">
         <div class="flex flex-col flex-wrap justify-center gap-8 p-4">
-            <div className='flex justify-between items-end px-5'>
-                <h1 className='text-6xl font-semibold'>
+            <div className='flex lg:flex-row flex-col bg-red-100 justify-center lg:justify-between items-center lg:items-end px-5'>
+                <h1 className='text-4xl lg:text-5xl xl:text-6xl font-semibold'>
                     Notable Cases
                 </h1>
                 <button className='flex gap-2 items-center justify-center font-base hover:text-white text-blue-600 h-max py-2 px-5 rounded-full transitionform border-2 border-blue-600 hover:bg-blue-600'>
