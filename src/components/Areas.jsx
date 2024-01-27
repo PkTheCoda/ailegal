@@ -39,7 +39,7 @@ const Areas = () => {
             </div>
             <div className='w-full py-4 flex gap-3 flex-wrap items-center justify-center lg:justify-between'>
                 {serviceItems.map((item, index) => (
-                    <div className='w-[48%] md:w-1/3 lg:w-1/4 xl:w-1/5 rounded-xl bg-sky-400 shadow-lg transitionform mb-4'>
+                    <div className='w-full md:w-1/3 lg:w-1/4 xl:w-1/5 rounded-xl bg-sky-400 shadow-lg transitionform mb-4'>
                     <div
                         key={index}
                         className='px-2 text-center h-max py-10 flex items-center justify-center flex-col gap-y-2 text-white'
